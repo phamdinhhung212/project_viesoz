@@ -1,0 +1,101 @@
+/* WP-CONTENT */
+#content {
+
+}
+/* style post-cover */
+.cover-category {
+    margin-bottom: 20px;
+}
+.cover-category .post-cover {
+    margin-bottom: 30px;
+}
+.cover-category .post-cover a.post-thumb {
+    margin-right: 30px;
+}
+.cover-category .post-cover a.post-title {
+    line-height: 33px;
+    font-size: 24px;
+    color: #000;
+    font-weight: 500;
+    margin-bottom: 6px;
+}
+.cover-category .post-cover a.post-title:hover {
+    color: #008643;
+    transition: all 0.5s;
+}
+.cover-category .post-cover p.post-desc {
+    line-height: 27px;
+    font-size: 15px;
+    color: #3f3f3f;
+}
+/* style list post cover  */
+.cover-category .list-post-cover .list-post.left {
+    width: 428px;
+}
+.cover-category .list-post-cover .list-post.right {
+    width: 366px;
+}
+/* style category show  */
+.category-show {
+    border-top: 1px solid #01a050;
+    padding-top: 40px;
+}
+.category-show ul.list-post-show li {
+    margin-bottom: 25px;
+}
+.category-show ul.list-post-show li a.post-thumb {
+    margin-right: 18px;
+}
+.category-show ul.list-post-show li a.post-title {
+    line-height: 26px;
+    font-size: 20px;
+    color: #000;
+    margin-bottom: 9px;
+}
+.category-show ul.list-post-show li a.post-title:hover {
+    color: #008643;
+    transition: all 0.5s;
+}
+.category-show ul.list-post-show li p.post-time {
+    display: inline-block;
+    font-size: 12px;
+    color: #959595;
+    margin-bottom: 7px;
+    padding-left: 18px;
+    position: relative;
+}
+.category-show ul.list-post-show li p.post-time:after {
+    font-family: "FontAwesome";
+    content : "\f017";
+    position: absolute;
+    left: 0px;
+}
+.category-show ul.list-post-show li p.post-desc {
+    line-height: 24px;
+    font-size: 14px;
+    color: #464646;
+}
+/* style show-page */
+.show-page {
+    margin-left: 255px;
+}
+.show-page p.title-page {
+    display: inline-block;
+    line-height: 30px;
+    font-size: 14;
+    color: #0b0b0b;
+}
+.show-page a.page {
+    display: inline-block;
+    border: 1px solid #dedede;
+    line-height: 30px;
+    font-size: 12px;
+    color: #0b0b0b;
+    padding: 2px 13px;
+    margin-right: 7px;
+}
+.show-page a.page:hover {
+    background: #01a050;
+    color: #fff;
+    transition: all 0.5s;
+}

@@ -1,0 +1,72 @@
+/* STYLE WP-CONTENT */
+.widget.content-detail {
+    margin-bottom: 35px;
+}
+.widget.content-detail h1.widget-title {
+    line-height: 33px;
+    font-size: 26px;
+    font-weight: 500;
+    color: #1f1f1f;
+    margin-bottom: 30px;
+}
+.widget.content-detail .widget-content a.post-thumb {
+    margin-bottom: 90px;
+}
+.widget.content-detail .widget-content p.post-desc {
+    line-height: 24px;
+    font-size: 14px;
+    color: #444444;
+    margin-bottom: 24px;
+}
+.widget.content-detail .widget-content p.admin {
+    font-size: 15px;
+    color: #000;
+}
+/* style plugin facebook */
+.plugin-facebook {
+    margin-bottom: 35px;
+}
+/* style widget related */
+.widget.related h4.widget-title {
+    line-height: 20px;
+    font-style: 21px;
+    font-weight: 500;
+    color: #1f1f1f;
+    text-transform: uppercase;
+    margin-bottom: 19px;
+   
+}
+.widget.related .widget-content {
+    border-top: 1px solid #01a050;
+    padding-top: 25px;
+}
+.widget.related .widget-content ul.list-post li {
+    width: 264.5px;
+}
+.widget.related .widget-content ul.list-post li a.post-thumb{
+    margin-bottom: 12px;
+}
+.widget.related .widget-content ul.list-post li a.post-title {
+    margin: 0px;
+    padding: 0px;
+}
+.widget.related .widget-content ul.list-page {
+    display: block;
+}
+.widget.related .widget-content .slide-show {
+    margin-left: 370px;
+    display: inline-block;
+}
+.widget.related .widget-content .slide-show a.slide{
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background: #b5b5b5;
+    border: 1px solid #b5b5b5;
+    border-radius: 10px;
+    margin-right: 14px;
+}
+.widget.related .widget-content .slide-show a.slide.show {
+    background: #000;
+    border: 1px solid #000;
+}

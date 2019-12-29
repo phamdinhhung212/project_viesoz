@@ -1,0 +1,270 @@
+body {
+    font-family: Roboto;
+    font-weight: 400;
+    color: #3f3f3f;
+    line-height: 24px;
+    font-size: 14px;
+}
+/* STYLE HEADER */
+#header {
+    border-bottom: 1px solid #d8d8d8;
+}
+/* style logo */
+a.logo {
+    padding: 16px 0px;
+    margin-right: 48px;
+}
+/* style main-menu */
+ul#main-menu li{
+    float: left; 
+    position: relative;
+}
+ul#main-menu li a {
+    font-size: 16px;
+    line-height: 12px;
+    color: #000000;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding: 23px 19px 22px 19px;
+    border: 1px solid #fff;
+    border-radius: 10px;
+}
+ul#main-menu li:hover > a {
+    background: #008643;
+    color: #e1e1e1;
+    transition: all 0.5s;
+}
+ul#main-menu li ul {
+    padding-top: 5px;
+    position: absolute;
+    width: 250px;
+}
+ul#main-menu li ul li {
+    float: none;
+}
+ul#main-menu li ul li:hover {
+    padding-right: 10px;
+    transition: all 0.75s;
+}
+ul#main-menu li ul li a {
+    background: #e1e1e1;
+    padding-left: 25px;
+    position: relative;
+    border-radius: 15px;
+    padding: 19px 19px 19px 19px;
+    margin-top: 2px;
+}
+ul#main-menu li ul li a:before {
+    font-family: "FontAwesome";
+    content: "\f0da";
+    position: absolute;
+    right: 15px;
+    top: 18px;
+}
+ul#main-menu li ul li ul {
+    position: absolute;
+    left: 100%;
+    top: 0px;
+}
+ul#main-menu li ul li:hover > a {
+    padding-left: 17px;
+}
+ul#main-menu li ul {
+    display: none;
+}
+ul#main-menu li:hover > ul {
+    display: block;
+}
+/* style search-box */
+.search-box {
+    padding: 12px 0px 11px 0px;
+    position: relative;
+}
+.search-box .search-text {
+    width: 180px;
+    font-size: 13px;
+    line-height: 33px;
+    font-style: italic;
+    color: #bfbfbf;
+    padding: 0px 42px 1px 15px;
+    border: 1px solid #e1e1e1;
+    border-radius: 7px;
+}
+.search-box .submit-login {
+    background: none;
+    border: none;
+    padding: 10px 13px;
+    position: absolute;
+    top: 12px;
+    right: 0px;
+    color: #e1e1e1;
+}
+/* STYLE THIS PAGE */
+#next-page {
+    background: #f3f3f3;
+}
+#next-page a.home-page {
+    display: inline-block;
+    font-size: 11px;
+    font-weight: 500;
+    color: #000;
+    margin-right: 23px;
+    padding: 8px 0px;
+    position: relative;
+    
+}
+#next-page a.home-page:before {
+    font-family: "FontAwesome";
+    content: "\f105";
+    position: absolute;
+    right: -16px;
+    top: 8px;
+}
+#next-page a.this-page {
+    display: inline-block;
+    font-size: 11px;
+    color: #565656;
+}
+/* STYLE WP-CONTENT */
+#wp-content {
+    padding: 34px 0px;
+}
+/* style content */
+#content {
+    min-height: 850px;
+    width: 833px;
+    border-right: 1px solid #f5f5f5;
+    padding-right: 38px;
+}
+/* style global ul.list-post */ 
+ul.list-post li {
+    margin-bottom: 20px;
+}
+ul.list-post li a.post-thumb {
+    margin-right: 20px;
+}
+ul.list-post li a.post-title {
+    line-height: 20px;
+    font-size: 14px;
+    color: #000000;
+    font-weight: 500;
+}
+ul.list-post li a.post-title:hover {
+    color: #008643;
+    transition: all 0.25s;
+}
+/* style sidebar */
+#sidebar {
+    width: 337px;
+    padding-left: 30px;   
+}
+#sidebar .ads-1 {
+    margin-bottom: 50px;
+}
+#sidebar .widget.most-read {
+    margin-bottom: 50px;
+}
+#sidebar .widget.most-read .widget-title{
+    font-size: 21px;
+    color: #000;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-bottom: 17px;
+}
+#sidebar .widget.most-read .widget-content {
+    border-top: 1px solid #01a050;
+    padding-top: 20px;
+}
+/* STYLE FOOTER */
+#footer {
+    background: #01a050;
+    padding: 47px 0px;
+}
+/* style widget about  */
+#footer .widget.about {
+    width: 326px;
+    padding-right: 70px;
+}
+/* style title of footer */
+#footer .widget-title {
+    line-height: 21px;
+    font-size: 21px;
+    font-weight: 500;
+    color: #fff;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+#footer .widget.about .widget-content p.post-desc{
+    line-height: 24px;
+    font-size: 15px;
+    color: #fff;
+    margin-bottom: 15px;
+}
+#footer .widget.about .widget-content p.post-desc a.back-home {
+    display: inline;
+    text-transform: uppercase;
+    color: #fff;
+}
+#footer .widget.about .widget-content p.post-contact a.contact {
+    line-height: 21px;
+    font-size: 15px;
+    color: #fff;
+    margin-bottom: 15px;
+}
+/* style widget category */
+#footer .widget.category {
+    width: 229px;
+    padding-right: 30px;
+}
+#footer .widget.category .widget-content ul.list-category li a {
+    line-height: 21px;
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 14px;
+    position: relative;
+    padding-left: 22px;
+}
+#footer .widget.category .widget-content ul.list-category li:hover,
+#footer .widget.news .widget-content ul.list-news li:hover {
+    padding-left: 8px;
+    transition: all 0.5s;
+}
+#footer .widget.category .widget-content ul.list-category li:hover a,
+#footer .widget.news .widget-content ul.list-news li:hover a {
+    color: #e1e1e1;
+}
+#footer .widget.category .widget-content ul.list-category li a:after{
+    font-family: "FontAwesome";
+    content : "\f105";
+    position: absolute;
+    left: 0px;
+}
+/* style widget news */
+#footer .widget.news {
+    width: 338px;
+    padding-right: 32px;
+}
+#footer .widget.news .widget-content ul.list-news li a{
+    line-height: 24px;
+    font-size: 15px;
+    color: #fff;
+    margin-bottom: 12px;
+    position: relative;
+    padding-left: 20px;
+}
+#footer .widget.news .widget-content ul.list-news li a:after {
+    font-family: "FontAwesome";
+    content : "\f105";
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+/* STYLE COPYRIGHT   */
+#copyright {
+    background: #fff;
+}
+#copyright p {
+    font-size: 14px;
+    color: #454545;
+    padding: 16px 0px;
+}

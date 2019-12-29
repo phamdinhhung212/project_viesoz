@@ -1,0 +1,77 @@
+/* WP-CONTENT */
+/* style post cover */
+.cover {
+    margin-bottom: 37px;
+}
+.post-cover {
+    width: 503px;
+    padding-right: 29px;
+}
+.post-cover a.post-thumb {
+    margin-bottom: 27px;
+}
+.post-cover h1.post-title a{
+    line-height: 33px;
+    font-size: 24px;
+    font-weight: 500;
+    color: #000;
+    margin-bottom: 16px;
+}
+.post-cover p.post-desc {
+    line-height: 27px;
+    font-size: 15px;
+    color: #3f3f3f;
+}
+/* style list post cover */
+.list-post-cover {
+    width: 291px;
+}
+/* style list post feature cats  */
+.widget.feature-cats {
+    margin-bottom: 33px;
+}
+.widget.feature-cats .widget-title a {
+    display: inline-block;
+    line-height: 20px;
+    font-size: 18px; 
+    font-weight: bold;
+    color: #fefefe;
+    padding: 12px 24px 12px 20px;
+    background: #01a050;
+    text-transform: uppercase;
+}
+.widget.feature-cats .widget-title a:hover {
+    background: #246f49;
+    transition: all 0.5s;
+}
+.widget.feature-cats .widget-content {
+    border-top: 1px solid #01a050;
+    padding-top: 19px;
+}
+/* style post feature */
+.widget.feature-cats .widget-content .post-feature {
+    width: 503px;
+    padding-right: 25px;
+}
+.widget.feature-cats .widget-content .post-feature a.post-title {
+    line-height: 22px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #222222;
+    margin-bottom: 18px;
+}
+.widget.feature-cats .widget-content .post-feature a.post-title:hover {
+    color: #246f49;
+    transition: all 0.5s;
+}
+.widget.feature-cats .widget-content .post-feature a.post-thumb {
+    margin-right:20px ;
+}
+.widget.feature-cats .widget-content .post-feature p.post-desc {
+    line-height: 24px;
+    font-size: 14px;
+}
+/* style list post feature */
+.widget.feature-cats .widget-content .list-post-feature {
+    width: 291px;
+}
